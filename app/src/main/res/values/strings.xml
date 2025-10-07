@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Word Counter App</string>
+    <string name="hint_enter_text">Enter your text here...</string>
+    <string name="button_count">Count</string>
+    <string name="result_label">Result: </string>
+    <string name="empty_text_warning">Please enter some text first!</string>
+
+    <!-- Spinner options -->
+    <string name="count_sentences">Sentences</string>
+    <string name="count_words">Words</string>
+    <string name="count_chars">Characters</string>
+    <string name="count_numbers">Numbers</string>
+
+    <!-- Result messages -->
+    <string name="result_format">%1$s count: %2$d</string>
+</resources>

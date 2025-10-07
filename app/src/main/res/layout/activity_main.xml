@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- EditText for text input (Requirement #1) -->
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="@string/hint_enter_text"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:background="@android:drawable/edit_text"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Spinner for selecting count type (Requirement #2) -->
+    <Spinner
+        android:id="@+id/spinnerCountType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Button to trigger counting (Requirement #3) -->
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_count"
+        android:layout_marginBottom="16dp" />
+
+    <!-- TextView to display results (Requirement #4) -->
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result_label"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="#F0F0F0"
+        android:minHeight="50dp" />
+
+</LinearLayout>
